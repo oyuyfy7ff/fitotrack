@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2026 Jannis Scheibe <jannis@tadris.de>
+  ~
+  ~ This file is part of FitoTrack
+  ~
+  ~ FitoTrack is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     FitoTrack is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="autoStartCountdownVal" translatable="false">%1$d%2$s</string>
+    <string name="approxSymbol" translatable="false">≈</string>
+    <string-array name="osm_track_visibility">
+        <item>@string/identifiable_visibility</item>
+        <item>@string/trackable_visibility</item>
+        <item>@string/private_visibility</item>
+    </string-array>
+    <string-array name="step_activity_threshold_entries">
+        <item>@string/stepActivityThresholdLow</item>
+        <item>@string/stepActivityThresholdMedium</item>
+        <item>@string/stepActivityThresholdHigh</item>
+    </string-array>
+    <string-array name="pref_energy_units">
+        <item>@string/kcal_unit</item>
+        <item>@string/joule_unit</item>
+    </string-array>
+    <string-array name="pref_announcement_mode">
+        <item>@string/always_mode</item>
+        <item>@string/only_on_headphones_mode</item>
+    </string-array>
+    <string-array name="pref_map_layers">
+        <item>@string/mapnik_default_osm_mapstyle</item>
+        <item>@string/humanitarian_clean_map_but_sometimes_not_available</item>
+        <item>@string/offline_local_map_file_with_local_render_theme</item>
+    </string-array>
+    <string-array name="pref_map_theme">
+        <item>@string/auto</item>
+        <item>@string/light_theme</item>
+        <item>@string/dark_theme</item>
+    </string-array>
+    <string-array name="pref_track_style_usage">
+        <item>@string/always_track_style</item>
+        <item>@string/in_the_diagram_screen_track_style</item>
+        <item>@string/never_track_style</item>
+    </string-array>
+    <string-array name="pref_track_style">
+        <item>@string/purple_rain</item>
+        <item>@string/pink_mist</item>
+        <item>@string/rainbow_warrior</item>
+        <item>@string/height_map</item>
+        <item>@string/bright_night</item>
+        <item>@string/mondriaan</item>
+    </string-array>
+    <string-array name="pref_theme_setting">
+        <item>@string/system_theme</item>
+        <item>@string/light_theme</item>
+        <item>@string/dark_theme</item>
+    </string-array>
+    <string-array name="pref_languages">
+        <item>@string/system_default</item>
+        <item>Català</item>     <!-- Catalan -->
+        <item>Čeština</item>    <!-- Czech -->
+        <item>Dansk</item>      <!-- Danish -->
+        <item>Deutsch</item>    <!-- German -->
+        <item>English</item>    <!-- English -->
+        <item>Español</item>    <!-- Spanish -->
+        <item>Esperanto</item>  <!-- Esperanto -->
+        <item>Français</item>   <!-- French -->
+        <item>Gaeilge</item>    <!-- Irish -->
+        <item>Galego</item>     <!-- Galician -->
+        <item>Hrvatski</item>   <!-- Croatian -->
+        <item>Indonesia</item>  <!-- Indonesian -->
+        <item>Italiano</item>   <!-- Italian -->
+        <item>Lëtzebuergesch</item> <!-- Luxembourgish -->
+        <item>Lietuvių</item>   <!-- Lithuanian -->
+        <item>Magyar</item>     <!-- Hungarian -->
+        <item>Melayu</item>     <!-- Malay -->
+        <item>Nederlands</item> <!-- Dutch -->
+        <item>Norsk</item>      <!-- Norwegian -->
+        <item>Polski</item>     <!-- Polish -->
+        <item>Português</item>  <!-- Portuguese -->
+        <item>Română</item>     <!-- Romanian -->
+        <item>Shqip</item>      <!-- Albanian -->
+        <item>Slovenčina</item> <!-- Slovak -->
+        <item>Suomi</item>      <!-- Finnish -->
+        <item>Svenska</item>    <!-- Swedish -->
+        <item>Tiếng Việt</item> <!-- Vietnamese -->
+        <item>Türkçe</item>     <!-- Turkish -->
+        <item>Ελληνικά</item>   <!-- Greek -->
+        <item>Русский</item>    <!-- Russian -->
+        <item>Српски (ћирилица)</item> <!-- Serbian (Cyrillic) -->
+        <item>Українська</item> <!-- Ukrainian -->
+        <item>עברית</item>      <!-- Hebrew -->
+        <item>العربية</item>    <!-- Arabic -->
+        <item>فارسی</item>      <!-- Farsi -->
+        <item>தமிழ்</item>       <!-- Tamil -->
+        <item>日本語</item>      <!-- Japanese -->
+        <item>中文 (简体)</item>  <!-- Chinese (Simplified) -->
+        <item>中文 (繁體)</item>  <!-- Chinese (Traditional) -->
+    </string-array>
+    <string-array name="pref_unit_systems">
+        <item>@string/metric_unit_system</item>
+        <item>@string/metric_with_m_s_unit_system</item>
+        <item>@string/imperial_unit_system</item>
+        <item>@string/imperial_with_meters_unit_system</item>
+        <item>@string/us_customary_unit_system</item>
+    </string-array>
+    <string-array name="pref_time_format">
+        <item>@string/system_default</item>
+        <item>12:08 PM</item>
+        <item>15:23</item>
+    </string-array>
+    <string-array name="pref_date_format">
+        <item>@string/system_default</item>
+        <item>2001-07-24</item>
+        <item>2001.07.24</item>
+        <item>2001/07/24</item>
+        <item>24-07-2001</item>
+        <item>24.07.2001</item>
+        <item>24/07/2001</item>
+        <item>07/24/2001</item>
+    </string-array>
+    <string-array name="pref_first_day_of_week">
+        <item>@string/system_default</item>
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+</resources>
